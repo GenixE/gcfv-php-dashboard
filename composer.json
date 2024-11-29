@@ -1,0 +1,19 @@
+{
+    "name": "gcval/project_php",
+    "require": {
+        "fakerphp/faker": "^1.23",
+        "nesbot/carbon": "^3.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gcval\\ProjectPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "GenixE",
+            "email": "106990876+GenixE@users.noreply.github.com"
+        }
+    ]
+}

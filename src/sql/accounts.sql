@@ -1,0 +1,10 @@
+CREATE TABLE accounts
+(
+    acc_id   INT PRIMARY KEY,
+    username VARCHAR(50)  NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    is_admin BOOLEAN DEFAULT FALSE,
+    last_login TIMESTAMP NULL DEFAULT NULL,
+    last_logout TIMESTAMP NULL DEFAULT NULL,
+    account_created TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP
+);
